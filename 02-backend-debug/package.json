@@ -8,6 +8,6 @@
     "test": "echo \"Add your tests here\""
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.22.1"
   }
 }
