@@ -37,3 +37,14 @@ A junior developer shipped this "User Profile Loader" app. Users report it never
 | XSS vulnerability explicitly addressed | 10% |
 
 > **Note:** Using AI tools is allowed. But if you cannot explain *why* each fix works, you will not pass this module.
+
+
+
+## 1 Error  Identificados y Soluciones 
+
+## A. Sicornizar 
+    **Problema** La aplicacion no mostraba datos por falta de palabras de await cache el cual no almacena la informacion correctamente
+    **Solucion** Se implemento la ayuda de await y se le agrega la excepciones para validar los errores, con la ayuda de una condicion para validar correctamente  la entrada de datos con json 
+
+
+## 
