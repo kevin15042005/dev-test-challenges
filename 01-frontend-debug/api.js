@@ -15,6 +15,6 @@ async function fetchUser(id) {
     const data = await response.json();
     return data;
   } catch (error) {
-    throw new Error("Falla en la entrada de datos ", error);
+    throw  Error("Falla en la entrada de datos ", error);
   }
 }

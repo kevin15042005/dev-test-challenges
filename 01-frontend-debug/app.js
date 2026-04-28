@@ -17,7 +17,7 @@ async function loadUser() {
     showResult('ID must be positive', true);
     return;
   }
-
+try {
   //Se hace la version de la carpeta api para que se pueda llamar a la funcion fetchUser
   if (!cachedUser[userId]) {
    
@@ -34,10 +34,13 @@ async function loadUser() {
       element.textContent = user[field] 
   }
   });
+} catch (error) {
+  showResult(error.message, true);
+}}
+  
 
 function showResult(message, isError = false) {
   const el = document.getElementById('result');
   el.className = isError ? 'error' : '';
   el.textContent = message;
-}
 }
