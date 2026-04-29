@@ -1,6 +1,6 @@
     import React, { useState } from 'react'
 {/*Se crea el prop con el fin de que se genere una propiedad a la hora de buscar*/}
-    function SearchInpu({onBuscar}) {
+    function SearchInpu({onBuscar}:any) {
 {/*Se crea el estado con el fin de hacer una busaqueda*/}
         const [buscar, setBuscar] = useState('')
         return (
