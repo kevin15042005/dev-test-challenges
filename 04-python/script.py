@@ -13,6 +13,8 @@ users = [
     {"name": "Frank", "email": "frank@"},            # invalid — BUG #1 would accept this
 ]
 
+
+#Aqui
 def validate_email(email):
     # BUG #1: only checks for "@" — accepts "a@", "@b", "@@"
     return "@" in email

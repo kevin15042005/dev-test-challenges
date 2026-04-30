@@ -33,3 +33,14 @@ A small Express API has been deployed. QA reports that `GET /data` always return
 | Error handling middleware added | 15% |
 
 > A **good** fix addresses the root cause. A **bad** fix only adds `await` without understanding why it was missing.
+
+
+## Error de express
+## 1 missing await in async DB simulation — always returns undefined
+ ## 2: 200 status returned on error — misleads client
+  ## 3: no input validation on POST /save
+## 4: memory leak — global array grows without limit
+## 5: no error handling middleware
+## 6: GET /data returns wrong field (undefined)
+
+

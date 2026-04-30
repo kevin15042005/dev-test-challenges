@@ -37,3 +37,6 @@ A junior developer shipped this "User Profile Loader" app. Users report it never
 | XSS vulnerability explicitly addressed | 10% |
 
 > **Note:** Using AI tools is allowed. But if you cannot explain *why* each fix works, you will not pass this module.
+
+
+

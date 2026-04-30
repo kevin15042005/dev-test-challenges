@@ -59,3 +59,5 @@ Each question is scored independently:
 | Own words (not copy-paste) | 15% |
 
 > Answers that demonstrate conceptual understanding score higher than textbook definitions.
+
+

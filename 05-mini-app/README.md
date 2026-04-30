@@ -52,3 +52,4 @@ Your README **must** include a section called `## AI Usage` that answers:
 
 > Simple code + clear reasoning = HIGH SCORE  
 > Perfect code + poor explanation = PENALTY
+
